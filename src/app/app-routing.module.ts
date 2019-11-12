@@ -9,6 +9,7 @@ import { HotelleribepComponent } from './components/hotelleribep/hotelleribep.co
 const routes: Routes = [
   { path: "header", component: HeaderComponent },
   { path: "home", component: HomeComponent },
+  { path: "", component: HomeComponent },
   { path: "couturecap", component: CouturecapComponent },
   { path: "hotellericap", component: HotellericapComponent },
   { path: "hotelleribep", component: HotelleribepComponent }
